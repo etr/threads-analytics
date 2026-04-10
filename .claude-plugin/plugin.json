@@ -1,0 +1,13 @@
+{
+  "name": "threads-analytics",
+  "version": "0.1.0",
+  "description": "Fetch Threads (Meta) posting activity and let Claude analyze engagement stats, classify topics, and generate posting recommendations.",
+  "author": {
+    "name": "Sebastiano Merlino",
+    "email": "sebastiano@hey.com"
+  },
+  "license": "MIT",
+  "keywords": ["threads", "meta", "analytics", "social-media", "engagement"],
+  "homepage": "https://github.com/etr/threads-analytics",
+  "repository": "https://github.com/etr/threads-analytics"
+}
