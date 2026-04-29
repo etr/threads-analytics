@@ -23,6 +23,9 @@ Under **Threads API** → **Permissions**, ensure these are enabled:
 | `threads_basic` | Read user profile and posts |
 | `threads_manage_insights` | Access post and user-level insights/metrics |
 | `threads_read_replies` | Read conversation threads and replies |
+| `threads_keyword_search` | *Optional.* Required only for `/recommend-threads` (keyword search of public posts) |
+
+> If you skip `threads_keyword_search`, `/threads-analytics` still works fully. `/recommend-threads` will exit early with a clear error pointing back to this section.
 
 ## 4. Add Yourself as a Test User
 
